@@ -1,0 +1,13 @@
+app.component.ts
+Components
+- create the component into the .ts file and choose a selector name
+- add the selector name of the component as an html balise on a html file 
+Ex: app.component.ts 
+		- selector: 'my-app' 
+		- on html file : <my-app></my-app>
+
+If we add a new component or class and want to use it on another component, we have import them on the bigger component (eg: app.component.ts) and have to setup the directives of the new component (directives: [PlaylistComponent])
+
+main.ts : we have the app.component file imported and another librairies needed for the application
+
+index.html : we have the node_modules imported, component included, and another script files 
